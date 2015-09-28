@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroEdge.NotificationService", "MicroEdge.NotificationService\MicroEdge.NotificationService.csproj", "{CCBB5A0C-97E6-43B2-A92A-772AD8ABD38A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{79DFFAFF-5D0E-4C5C-B0CE-F6C266C8FC2A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C93D155D-FA1D-43A6-B0FF-4A8ED58A1BBA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MicroEdgeNotificationService-WAWS-dev.json = PublishScripts\Configurations\MicroEdgeNotificationService-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCBB5A0C-97E6-43B2-A92A-772AD8ABD38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBB5A0C-97E6-43B2-A92A-772AD8ABD38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBB5A0C-97E6-43B2-A92A-772AD8ABD38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBB5A0C-97E6-43B2-A92A-772AD8ABD38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C93D155D-FA1D-43A6-B0FF-4A8ED58A1BBA} = {79DFFAFF-5D0E-4C5C-B0CE-F6C266C8FC2A}
+	EndGlobalSection
+EndGlobal
